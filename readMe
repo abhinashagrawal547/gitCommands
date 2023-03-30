@@ -1,8 +1,11 @@
+steps to create a new branch locally and push it to an existing remote branch
+----------------------------------------------------------------
 git init
 git config --global user.name "Abhinash"
 git config --global user.email "your email"
 git status
 git add .
 git commit -b "meaningful comment"
+git push checkout -b "your new local branch name"
 git push --set-upstream origin "name of your remote branch" 
     -> before doing this create a remote branch
